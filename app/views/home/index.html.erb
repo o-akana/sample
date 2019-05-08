@@ -2,20 +2,19 @@
 <%= image_tag 'grape.jpg', style: 'width: 20%;' %>
 <h2>p tag</h2>
 <p><b>Age</b> <%= ((Time.current - Time.parse('1991/12/26')) / (60*60*24*365)).floor %></p>
-<p><b>Hobby</b> <%= ['hyono', 'orgasm', 'daiki'].sample %></p>
+<p><b>Hobby</b> <%= ['music', 'movie', 'horticulture'].sample %></p>
 
 
 <h2>ul list</h2>
 <ul>
   <li>Age 27</li>
-  <li>Hobby Hypno</li>
+  <li>Hobby music</li>
 </ul>
 
 <h2>ol list</h2>
 <ol>
   <li>Age 27</li>
-  <li>Hobby Hypno</li>
-  <li>Hobby Hypno</li>
+  <li>Hobby music</li>
 </ol>
 
 <hr>
@@ -31,7 +30,7 @@
   <tbody>  
     <tr>
       <td>27</td>     
-      <td>Hypno</td>
+      <td>music</td>
     </tr>
   </tbody>
 </table>
